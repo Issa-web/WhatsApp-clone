@@ -67,4 +67,31 @@
     overflow: scroll;
 }
 
+.chat__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
 
+.chat__footer > form{
+    flex: 1;
+    display: flex;
+    /* background-color: blue; */
+}
+
+.chat__footer > form > input{
+    flex: 1;
+   border-radius: 30px;
+   padding: 10px;
+   border: none;
+}
+.chat__footer > form > button{  /* for hidding the button 'send a message' on the form */
+    display: none; 
+}
+
+.chat__footer > .MuiSvgIcon-root{
+    padding: 10px;
+    color: gray;
+}

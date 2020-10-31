@@ -1,6 +1,7 @@
 .sidebar {
     flex: 0.35;
     flex-direction: column;
+    background-color: #f6f6f6f6;
 }
 
 .sidebar__search {
