@@ -9,7 +9,7 @@ import MicIcon from '@material-ui/icons/Mic';
 import './Chat.css'
 function Chat() {
   
-  const [input, setInput] = useState('')
+  const [input, setInput] = useState('Issa')
   const [seed, setSeed] = useState('')
 
     useEffect(() =>{
