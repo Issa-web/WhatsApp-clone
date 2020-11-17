@@ -16,7 +16,7 @@ const firebaseConfig = {
 // accessing the firestore of our firebaseApp and store it inside of db variable
   const db = firebaseApp.firestore();
 // authication handler
-  const auth = firebase.auth;
+  const auth = firebase.auth();
 // this is for google authication
   const provider = new firebase.auth.GoogleAuthProvider();
 
